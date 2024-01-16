@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Courier Prime, Courier, monospace;
+}
+
+#city{
+    background-image: url("images/nyc.png");
+    background-size: cover;
+    padding: 10px 0 55px 0;
+    color: #FFEDBB;
+    position: relative;
+    width: auto;
+    height: 300px;
+    flex-shrink: 0;
+    background-position: center;
+}
+
+#header-text{
+  color: #FFEDBB;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  /* font-family: Courier Prime; */
+  font-size: 73px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  word-spacing: -15px;
+
+  margin: 100px auto 0px;
+  padding: 5px 5px 0px 5px;
+
+  background-color: rgba(44, 56, 77, 0.75);
+  width: 600px;
+}
+
+#subtitle-text{
+  color: #FFEDBB;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  /* font-family: Courier Prime; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin: 0px auto 0px;
+  padding: 0px 5px 20px 5px;
+
+  background-color: rgba(44, 56, 77, 0.75);
+  width: 600px;
+}
+
+#activites{
+  background: rgba(255, 237, 187, 0.35);
+  padding: 10px 0px 10px 0;
+}
+
+#nyc-activites-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.nyc-activites{
+  padding-top: 10px;
+  width:300px;
+  font-size: 15px;
+}
+
+#guide{
+  width: 600px;
+  margin: 25px auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+
+  background: rgba(122, 147, 172, 0.50);
+
+
+}
+img {
+    height:175px;
+    width:300px;
+}
